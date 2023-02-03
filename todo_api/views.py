@@ -5,11 +5,11 @@ from rest_framework import status
 from rest_framework import permissions
 from .models import Todo
 from .serializers import TodoSerializer
-from django.http import HttpResponse
+#from django.http import HttpResponse
 
 
-def todos(request):
-    return HttpResponse('Teste');
+#def todos(request):
+ #   return HttpResponse('Teste');
 
 class TodoListApiView(APIView):
     # add permission to check if user is authenticated
